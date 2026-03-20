@@ -1,0 +1,10 @@
+[0.006s] Invoking command in '/home/dung/ros2_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/ros2_ws/install/libuvc:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/ros2_ws/install/libuvc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dung/ros2_ws/build/astra_camera -- -j32 -l32
+[0.055s] [  5%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[0.264s] [01m[K/home/dung/ros2_ws/src/ros2_astra_camera/astra_camera/src/ob_camera_info.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+[0.264s]    14 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+[0.264s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.264s] compilation terminated.
+[0.269s] gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:132: CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o] Error 1
+[0.270s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/astra_camera.dir/all] Error 2
+[0.270s] gmake: *** [Makefile:146: all] Error 2
+[0.272s] Invoked command in '/home/dung/ros2_ws/build/astra_camera' returned '2': CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/ros2_ws/install/libuvc:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/ros2_ws/install/libuvc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dung/ros2_ws/build/astra_camera -- -j32 -l32

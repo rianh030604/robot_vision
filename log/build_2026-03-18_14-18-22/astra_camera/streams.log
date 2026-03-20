@@ -1,0 +1,156 @@
+[0.009s] Invoking command in '/home/dung/ros2_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/colcon_ws/install/open_manipulator:/home/dung/colcon_ws/install/open_manipulator_x_teleop:/home/dung/colcon_ws/install/open_manipulator_x_playground:/home/dung/colcon_ws/install/open_manipulator_x_moveit_config:/home/dung/colcon_ws/install/open_manipulator_x_gui:/home/dung/colcon_ws/install/open_manipulator_x_bringup:/home/dung/colcon_ws/install/open_manipulator_x_description:/home/dung/colcon_ws/install/dynamixel_sdk_examples:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/dung/colcon_ws/install/dynamixel_hardware_interface:/home/dung/colcon_ws/install/dynamixel_sdk:/home/dung/colcon_ws/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/colcon_ws/install/open_manipulator_x_gui/lib:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/dung/colcon_ws/install/dynamixel_hardware_interface/lib:/home/dung/colcon_ws/install/dynamixel_sdk/lib:/home/dung/colcon_ws/install/dynamixel_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/dung/ros2_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dung/ros2_ws/src/ros2_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/home/dung/ros2_ws/install/astra_camera
+[0.016s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.084s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.089s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.089s] -- Found astra_camera_msgs: 1.0.1 (/home/dung/ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+[0.103s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.104s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.107s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.120s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.160s] -- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)
+[0.186s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.187s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.266s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.298s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[0.300s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.306s] -- Found message_filters: 4.3.14 (/opt/ros/humble/share/message_filters/cmake)
+[0.309s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[0.311s] -- Found image_publisher: 3.0.9 (/opt/ros/humble/share/image_publisher/cmake)
+[0.339s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.346s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[0.349s] -- Found tf2_eigen: 0.25.19 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.389s] -- Found tf2_sensor_msgs: 0.25.19 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[0.399s] -- ORRBEC Machine : x86_64
+[0.399s] 
+[0.399s] -- ORRBEC Machine Bits : 64
+[0.399s] 
+[0.399s] -- ORRBEC : x64
+[0.433s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.474s] -- Configuring done
+[0.554s] -- Generating done
+[0.563s] -- Build files have been written to: /home/dung/ros2_ws/build/astra_camera
+[0.570s] Invoked command in '/home/dung/ros2_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/colcon_ws/install/open_manipulator:/home/dung/colcon_ws/install/open_manipulator_x_teleop:/home/dung/colcon_ws/install/open_manipulator_x_playground:/home/dung/colcon_ws/install/open_manipulator_x_moveit_config:/home/dung/colcon_ws/install/open_manipulator_x_gui:/home/dung/colcon_ws/install/open_manipulator_x_bringup:/home/dung/colcon_ws/install/open_manipulator_x_description:/home/dung/colcon_ws/install/dynamixel_sdk_examples:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/dung/colcon_ws/install/dynamixel_hardware_interface:/home/dung/colcon_ws/install/dynamixel_sdk:/home/dung/colcon_ws/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/colcon_ws/install/open_manipulator_x_gui/lib:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/dung/colcon_ws/install/dynamixel_hardware_interface/lib:/home/dung/colcon_ws/install/dynamixel_sdk/lib:/home/dung/colcon_ws/install/dynamixel_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/dung/ros2_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dung/ros2_ws/src/ros2_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/home/dung/ros2_ws/install/astra_camera
+[0.571s] Invoking command in '/home/dung/ros2_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/colcon_ws/install/open_manipulator:/home/dung/colcon_ws/install/open_manipulator_x_teleop:/home/dung/colcon_ws/install/open_manipulator_x_playground:/home/dung/colcon_ws/install/open_manipulator_x_moveit_config:/home/dung/colcon_ws/install/open_manipulator_x_gui:/home/dung/colcon_ws/install/open_manipulator_x_bringup:/home/dung/colcon_ws/install/open_manipulator_x_description:/home/dung/colcon_ws/install/dynamixel_sdk_examples:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/dung/colcon_ws/install/dynamixel_hardware_interface:/home/dung/colcon_ws/install/dynamixel_sdk:/home/dung/colcon_ws/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/colcon_ws/install/open_manipulator_x_gui/lib:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/dung/colcon_ws/install/dynamixel_hardware_interface/lib:/home/dung/colcon_ws/install/dynamixel_sdk/lib:/home/dung/colcon_ws/install/dynamixel_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/dung/ros2_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dung/ros2_ws/build/astra_camera -- -j32 -l32
+[0.609s] [35m[1mConsolidate compiler generated dependencies of target astra_camera[0m
+[0.652s] [  5%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyz.cpp.o[0m
+[0.653s] [ 15%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o[0m
+[0.653s] [ 15%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_context.cpp.o[0m
+[0.654s] [ 21%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/dynamic_params.cpp.o[0m
+[0.658s] [ 26%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[0.658s] [ 31%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_timer_filter.cpp.o[0m
+[0.659s] [ 36%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o[0m
+[0.661s] [ 42%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o[0m
+[0.661s] [ 47%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_param_backend.cpp.o[0m
+[0.662s] [ 52%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_service.cpp.o[0m
+[0.662s] [ 57%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/utils.cpp.o[0m
+[0.663s] [ 63%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/uvc_camera_driver.cpp.o[0m
+[17.631s] [ 68%] [32m[1mLinking CXX shared library libastra_camera.so[0m
+[18.242s] [ 68%] Built target astra_camera
+[18.250s] [35m[1mConsolidate compiler generated dependencies of target clean_shm_node[0m
+[18.250s] [35m[1mConsolidate compiler generated dependencies of target list_devices_node[0m
+[18.251s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_node[0m
+[18.259s] [ 73%] [32mBuilding CXX object CMakeFiles/clean_shm_node.dir/src/clean_up_shm_node.cpp.o[0m
+[18.263s] [ 78%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/src/list_devices_node.cpp.o[0m
+[18.266s] [ 84%] [32mBuilding CXX object CMakeFiles/astra_camera_node.dir/src/main.cpp.o[0m
+[18.503s] [ 89%] [32m[1mLinking CXX executable clean_shm_node[0m
+[19.615s] [ 89%] Built target clean_shm_node
+[20.516s] [ 94%] [32m[1mLinking CXX executable list_devices_node[0m
+[20.786s] [ 94%] Built target list_devices_node
+[24.266s] [100%] [32m[1mLinking CXX executable astra_camera_node[0m
+[24.582s] [100%] Built target astra_camera_node
+[24.591s] Invoked command in '/home/dung/ros2_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/colcon_ws/install/open_manipulator:/home/dung/colcon_ws/install/open_manipulator_x_teleop:/home/dung/colcon_ws/install/open_manipulator_x_playground:/home/dung/colcon_ws/install/open_manipulator_x_moveit_config:/home/dung/colcon_ws/install/open_manipulator_x_gui:/home/dung/colcon_ws/install/open_manipulator_x_bringup:/home/dung/colcon_ws/install/open_manipulator_x_description:/home/dung/colcon_ws/install/dynamixel_sdk_examples:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/dung/colcon_ws/install/dynamixel_hardware_interface:/home/dung/colcon_ws/install/dynamixel_sdk:/home/dung/colcon_ws/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/colcon_ws/install/open_manipulator_x_gui/lib:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/dung/colcon_ws/install/dynamixel_hardware_interface/lib:/home/dung/colcon_ws/install/dynamixel_sdk/lib:/home/dung/colcon_ws/install/dynamixel_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/dung/ros2_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dung/ros2_ws/build/astra_camera -- -j32 -l32
+[24.592s] Invoking command in '/home/dung/ros2_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/colcon_ws/install/open_manipulator:/home/dung/colcon_ws/install/open_manipulator_x_teleop:/home/dung/colcon_ws/install/open_manipulator_x_playground:/home/dung/colcon_ws/install/open_manipulator_x_moveit_config:/home/dung/colcon_ws/install/open_manipulator_x_gui:/home/dung/colcon_ws/install/open_manipulator_x_bringup:/home/dung/colcon_ws/install/open_manipulator_x_description:/home/dung/colcon_ws/install/dynamixel_sdk_examples:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/dung/colcon_ws/install/dynamixel_hardware_interface:/home/dung/colcon_ws/install/dynamixel_sdk:/home/dung/colcon_ws/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/colcon_ws/install/open_manipulator_x_gui/lib:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/dung/colcon_ws/install/dynamixel_hardware_interface/lib:/home/dung/colcon_ws/install/dynamixel_sdk/lib:/home/dung/colcon_ws/install/dynamixel_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/dung/ros2_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dung/ros2_ws/build/astra_camera
+[24.596s] -- Install configuration: "Debug"
+[24.597s] -- Execute custom install script
+[24.597s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib/libastra_camera.so
+[24.598s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib//libOpenNI2.so
+[24.598s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[24.599s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[24.599s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[24.599s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[24.599s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib/astra_camera//list_devices_node
+[24.599s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib/astra_camera//clean_shm_node
+[24.599s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/lib/astra_camera//astra_camera_node
+[24.600s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/constants.h
+[24.600s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/dynamic_params.h
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/json.hpp
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ob_camera_node.h
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ob_context.h
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[24.601s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[24.602s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ros_param_backend.h
+[24.602s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/types.h
+[24.602s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/utils.h
+[24.602s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[24.602s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/magic_enum/magic_enum.hpp
+[24.602s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[24.602s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[24.603s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[24.603s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/KinectProperties.h
+[24.603s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[24.603s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[24.603s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[24.603s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniCAPI.h
+[24.603s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniCEnums.h
+[24.604s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniCProperties.h
+[24.604s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniCTypes.h
+[24.604s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniEnums.h
+[24.604s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniPlatform.h
+[24.604s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniProperties.h
+[24.604s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniTest.h
+[24.604s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniVersion.h
+[24.604s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/OpenNI.h
+[24.605s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/PS1080.h
+[24.605s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/PSLink.h
+[24.605s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/PrimeSense.h
+[24.605s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/SonixCamera.h
+[24.605s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/include/openni2/util.h
+[24.606s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/.gitkeep
+[24.606s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/astra.launch.xml
+[24.606s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml
+[24.606s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml
+[24.606s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml
+[24.606s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml
+[24.606s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml
+[24.606s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml
+[24.607s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml
+[24.608s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml
+[24.608s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml
+[24.608s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml
+[24.608s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml
+[24.608s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml
+[24.608s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml
+[24.608s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[24.608s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[24.609s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[24.609s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[24.609s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[24.609s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[24.609s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[24.609s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[24.610s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[24.610s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[24.610s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[24.610s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[24.610s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/package.dsv
+[24.616s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[24.617s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.617s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[24.617s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.617s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[24.617s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[24.617s] -- Up-to-date symlink: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/package.xml
+[24.619s] Invoked command in '/home/dung/ros2_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/colcon_ws/install/open_manipulator:/home/dung/colcon_ws/install/open_manipulator_x_teleop:/home/dung/colcon_ws/install/open_manipulator_x_playground:/home/dung/colcon_ws/install/open_manipulator_x_moveit_config:/home/dung/colcon_ws/install/open_manipulator_x_gui:/home/dung/colcon_ws/install/open_manipulator_x_bringup:/home/dung/colcon_ws/install/open_manipulator_x_description:/home/dung/colcon_ws/install/dynamixel_sdk_examples:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/dung/colcon_ws/install/dynamixel_hardware_interface:/home/dung/colcon_ws/install/dynamixel_sdk:/home/dung/colcon_ws/install/dynamixel_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/colcon_ws/install/open_manipulator_x_gui/lib:/home/dung/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/dung/colcon_ws/install/dynamixel_hardware_interface/lib:/home/dung/colcon_ws/install/dynamixel_sdk/lib:/home/dung/colcon_ws/install/dynamixel_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/dung/ros2_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dung/ros2_ws/build/astra_camera

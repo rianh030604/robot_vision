@@ -1,0 +1,38 @@
+[  4%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/device.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl-gen.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/uvc.dir/src/diag.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/uvc.dir/src/device.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/diag.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/uvc.dir/src/init.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/stream.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame-mjpeg.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl-gen.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame-mjpeg.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/uvc.dir/src/stream.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/init.c.o[0m
+[ 77%] [32m[1mLinking C shared library libuvc.so[0m
+[ 81%] [32m[1mLinking C static library libuvc.a[0m
+[ 86%] Built target uvc_static
+[ 90%] Built target uvc
+[ 95%] [32m[1mLinking C executable example[0m
+[100%] Built target example
+-- Install configuration: "Release"
+-- Installing: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0.0.7
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+-- Installing: /home/dung/ros2_ws/install/libuvc/lib/libuvc.a
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+-- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake

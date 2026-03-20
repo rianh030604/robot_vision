@@ -1,0 +1,15 @@
+/home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0.0.7
+/home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0
+/home/dung/ros2_ws/install/libuvc/lib/libuvc.so
+/home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+/home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+/home/dung/ros2_ws/install/libuvc/lib/libuvc.a
+/home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+/home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+/home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+/home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+/home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+/home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+/home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+/home/dung/ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+/home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake

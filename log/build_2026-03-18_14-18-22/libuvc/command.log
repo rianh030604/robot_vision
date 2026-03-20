@@ -1,0 +1,4 @@
+Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake --build /home/dung/ros2_ws/build/libuvc -- -j32 -l32
+Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/dung/ros2_ws/build/libuvc -- -j32 -l32
+Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake --install /home/dung/ros2_ws/build/libuvc
+Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/dung/ros2_ws/build/libuvc

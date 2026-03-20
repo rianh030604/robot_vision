@@ -1,0 +1,108 @@
+[0.007s] Invoking command in '/home/dung/ros2_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/ros2_ws/install/libuvc:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/ros2_ws/install/libuvc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dung/ros2_ws/build/astra_camera -- -j32 -l32
+[0.055s] [  5%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[6.245s] [ 10%] [32m[1mLinking CXX shared library libastra_camera.so[0m
+[6.827s] [ 68%] Built target astra_camera
+[6.842s] [ 73%] [32mBuilding CXX object CMakeFiles/astra_camera_node.dir/src/main.cpp.o[0m
+[6.842s] [ 78%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/src/list_devices_node.cpp.o[0m
+[6.843s] [ 84%] [32mBuilding CXX object CMakeFiles/clean_shm_node.dir/src/clean_up_shm_node.cpp.o[0m
+[7.079s] [ 89%] [32m[1mLinking CXX executable clean_shm_node[0m
+[8.156s] [ 89%] Built target clean_shm_node
+[9.059s] [ 94%] [32m[1mLinking CXX executable list_devices_node[0m
+[9.314s] [ 94%] Built target list_devices_node
+[12.838s] [100%] [32m[1mLinking CXX executable astra_camera_node[0m
+[13.145s] [100%] Built target astra_camera_node
+[13.153s] Invoked command in '/home/dung/ros2_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/ros2_ws/install/libuvc:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/ros2_ws/install/libuvc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dung/ros2_ws/build/astra_camera -- -j32 -l32
+[13.154s] Invoking command in '/home/dung/ros2_ws/build/astra_camera': CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/ros2_ws/install/libuvc:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/ros2_ws/install/libuvc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dung/ros2_ws/build/astra_camera
+[13.159s] -- Install configuration: "Debug"
+[13.159s] -- Execute custom install script
+[13.159s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib/libastra_camera.so
+[13.166s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib//libOpenNI2.so
+[13.171s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[13.177s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[13.182s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[13.188s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[13.194s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib/astra_camera//list_devices_node
+[13.199s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib/astra_camera//clean_shm_node
+[13.205s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/lib/astra_camera//astra_camera_node
+[13.210s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/constants.h
+[13.216s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/dynamic_params.h
+[13.222s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/json.hpp
+[13.227s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ob_camera_node.h
+[13.233s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[13.238s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ob_context.h
+[13.244s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[13.250s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[13.256s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h
+[13.261s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[13.267s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[13.273s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/ros_param_backend.h
+[13.278s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/types.h
+[13.284s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/utils.h
+[13.289s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[13.295s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/magic_enum/magic_enum.hpp
+[13.300s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[13.306s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[13.311s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[13.317s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/KinectProperties.h
+[13.322s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[13.328s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[13.334s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[13.340s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniCAPI.h
+[13.345s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniCEnums.h
+[13.351s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniCProperties.h
+[13.357s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniCTypes.h
+[13.363s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniEnums.h
+[13.369s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniPlatform.h
+[13.375s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniProperties.h
+[13.381s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniTest.h
+[13.387s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OniVersion.h
+[13.392s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/OpenNI.h
+[13.399s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/PS1080.h
+[13.404s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/PSLink.h
+[13.409s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/PrimeSense.h
+[13.415s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/SonixCamera.h
+[13.420s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/include/openni2/util.h
+[13.427s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/.gitkeep
+[13.432s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/astra.launch.xml
+[13.438s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml
+[13.443s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml
+[13.449s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml
+[13.454s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml
+[13.459s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml
+[13.465s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml
+[13.470s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml
+[13.476s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml
+[13.481s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml
+[13.487s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml
+[13.493s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini.launch.xml
+[13.498s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml
+[13.503s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml
+[13.509s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml
+[13.514s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml
+[13.520s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml
+[13.526s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml
+[13.531s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml
+[13.536s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml
+[13.541s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml
+[13.546s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml
+[13.552s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[13.558s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[13.563s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[13.568s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[13.574s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[13.579s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[13.585s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[13.591s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[13.596s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[13.602s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[13.607s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[13.613s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[13.618s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/package.dsv
+[13.624s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[13.630s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.635s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[13.641s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.646s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[13.652s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[13.657s] -- Symlinking: /home/dung/ros2_ws/install/astra_camera/share/astra_camera/package.xml
+[13.666s] Invoked command in '/home/dung/ros2_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/home/dung/ros2_ws/install/astra_camera_msgs:/home/dung/ros2_ws/install/libuvc:/opt/ros/humble LD_LIBRARY_PATH=/home/dung/ros2_ws/install/astra_camera_msgs/lib:/home/dung/ros2_ws/install/libuvc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dung/ros2_ws/build/astra_camera

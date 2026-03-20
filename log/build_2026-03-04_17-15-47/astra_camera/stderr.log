@@ -1,0 +1,10 @@
+[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:890 (message):
+  None of the required 'libglog' found
+Call Stack (most recent call first):
+  CMakeLists.txt:48 (pkg_search_module)
+
+[0m
+[31mCMake Error at CMakeLists.txt:51 (message):
+  glog is not found
+
+[0m

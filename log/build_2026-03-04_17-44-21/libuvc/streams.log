@@ -1,0 +1,46 @@
+[0.008s] Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake /home/dung/ros2_ws/libuvc -DCMAKE_INSTALL_PREFIX=/home/dung/ros2_ws/install/libuvc
+[0.019s] -- libusb-1.0 found using pkgconfig
+[0.036s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.036s] -- Found JPEG library using standard module
+[0.037s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.037s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[0.037s]   not match the name of the calling package (JpegPkg).  This can lead to
+[0.037s]   problems in calling code that expects `find_package` result variables
+[0.037s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.037s] Call Stack (most recent call first):
+[0.037s]   cmake/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[0.037s]   CMakeLists.txt:45 (find_package)
+[0.037s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.037s] [0m
+[0.037s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so  
+[0.037s] -- Building libuvc with JPEG support.
+[0.041s] -- Configuring done
+[0.047s] -- Generating done
+[0.048s] -- Build files have been written to: /home/dung/ros2_ws/build/libuvc
+[0.051s] Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake /home/dung/ros2_ws/libuvc -DCMAKE_INSTALL_PREFIX=/home/dung/ros2_ws/install/libuvc
+[0.052s] Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake --build /home/dung/ros2_ws/build/libuvc -- -j32 -l32
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target uvc_static[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target uvc[0m
+[0.098s] [ 90%] Built target uvc
+[0.099s] [ 90%] Built target uvc_static
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.117s] [100%] Built target example
+[0.128s] Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/dung/ros2_ws/build/libuvc -- -j32 -l32
+[0.136s] Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake --install /home/dung/ros2_ws/build/libuvc
+[0.142s] -- Install configuration: "Release"
+[0.142s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0.0.7
+[0.142s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0
+[0.142s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so
+[0.142s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[0.142s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.142s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.a
+[0.142s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[0.142s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.143s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[0.143s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[0.143s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[0.143s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[0.143s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[0.143s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[0.143s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[0.144s] Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/dung/ros2_ws/build/libuvc

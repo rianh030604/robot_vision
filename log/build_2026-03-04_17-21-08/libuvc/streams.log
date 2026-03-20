@@ -1,0 +1,80 @@
+[0.010s] Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake /home/dung/ros2_ws/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dung/ros2_ws/install/libuvc
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.062s] -- Detecting C compiler ABI info
+[0.122s] -- Detecting C compiler ABI info - done
+[0.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.127s] -- Detecting C compile features
+[0.128s] -- Detecting C compile features - done
+[0.128s] -- No target type selected, default to both shared and static library
+[0.132s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.132s] -- Checking for module 'libusb-1.0'
+[0.141s] --   Found libusb-1.0, version 1.0.25
+[0.167s] -- libusb-1.0 found using pkgconfig
+[0.182s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.182s] -- Found JPEG library using standard module
+[0.183s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.183s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[0.183s]   not match the name of the calling package (JpegPkg).  This can lead to
+[0.183s]   problems in calling code that expects `find_package` result variables
+[0.183s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.183s] Call Stack (most recent call first):
+[0.183s]   cmake/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[0.183s]   CMakeLists.txt:45 (find_package)
+[0.183s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.183s] [0m
+[0.183s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so  
+[0.183s] -- Building libuvc with JPEG support.
+[0.183s] -- Looking for pthread.h
+[0.243s] -- Looking for pthread.h - found
+[0.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.305s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.305s] -- Found Threads: TRUE  
+[0.309s] -- Configuring done
+[0.314s] -- Generating done
+[0.316s] -- Build files have been written to: /home/dung/ros2_ws/build/libuvc
+[0.320s] Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake /home/dung/ros2_ws/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/dung/ros2_ws/install/libuvc
+[0.321s] Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake --build /home/dung/ros2_ws/build/libuvc -- -j32 -l32
+[0.361s] [  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl-gen.c.o[0m
+[0.361s] [  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/device.c.o[0m
+[0.361s] [ 13%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl-gen.c.o[0m
+[0.362s] [ 27%] [32mBuilding C object CMakeFiles/uvc.dir/src/diag.c.o[0m
+[0.362s] [ 27%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl.c.o[0m
+[0.362s] [ 27%] [32mBuilding C object CMakeFiles/uvc.dir/src/init.c.o[0m
+[0.362s] [ 31%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl.c.o[0m
+[0.362s] [ 40%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame-mjpeg.c.o[0m
+[0.362s] [ 40%] [32mBuilding C object CMakeFiles/uvc.dir/src/misc.c.o[0m
+[0.362s] [ 45%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/diag.c.o[0m
+[0.363s] [ 50%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/init.c.o[0m
+[0.363s] [ 54%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/device.c.o[0m
+[0.364s] [ 63%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame.c.o[0m
+[0.364s] [ 63%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame-mjpeg.c.o[0m
+[0.364s] [ 68%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/misc.c.o[0m
+[0.364s] [ 72%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame.c.o[0m
+[0.364s] [ 77%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/stream.c.o[0m
+[0.365s] [ 81%] [32mBuilding C object CMakeFiles/uvc.dir/src/stream.c.o[0m
+[0.560s] [ 90%] [32m[1mLinking C shared library libuvc.so[0m
+[0.561s] [ 90%] [32m[1mLinking C static library libuvc.a[0m
+[0.583s] [ 90%] Built target uvc_static
+[0.596s] [ 90%] Built target uvc
+[0.608s] [ 95%] [32mBuilding C object CMakeFiles/example.dir/src/example.c.o[0m
+[0.638s] [100%] [32m[1mLinking C executable example[0m
+[0.661s] [100%] Built target example
+[0.670s] Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/dung/ros2_ws/build/libuvc -- -j32 -l32
+[0.676s] Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake --install /home/dung/ros2_ws/build/libuvc
+[0.681s] -- Install configuration: "Release"
+[0.681s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0.0.7
+[0.681s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0
+[0.681s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so
+[0.681s] -- Installing: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[0.681s] -- Installing: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.681s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/libuvc.a
+[0.682s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[0.682s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.682s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[0.682s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[0.682s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[0.682s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[0.682s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[0.682s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[0.682s] -- Installing: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[0.684s] Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/dung/ros2_ws/build/libuvc

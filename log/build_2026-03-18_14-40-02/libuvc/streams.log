@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake --build /home/dung/ros2_ws/build/libuvc -- -j32 -l32
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target uvc_static[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target uvc[0m
+[0.062s] [ 45%] Built target uvc
+[0.062s] [ 90%] Built target uvc_static
+[0.083s] [100%] Built target example
+[0.095s] Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/dung/ros2_ws/build/libuvc -- -j32 -l32
+[0.104s] Invoking command in '/home/dung/ros2_ws/build/libuvc': /usr/bin/cmake --install /home/dung/ros2_ws/build/libuvc
+[0.111s] -- Install configuration: "Release"
+[0.111s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0.0.7
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so.0
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.so
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/libuvc.a
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[0.112s] -- Up-to-date: /home/dung/ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[0.114s] Invoked command in '/home/dung/ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/dung/ros2_ws/build/libuvc

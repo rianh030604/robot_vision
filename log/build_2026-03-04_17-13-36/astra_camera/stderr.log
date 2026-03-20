@@ -1,0 +1,10 @@
+[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:890 (message):
+  None of the required 'libuvc' found
+Call Stack (most recent call first):
+  CMakeLists.txt:44 (pkg_search_module)
+
+[0m
+[31mCMake Error at CMakeLists.txt:46 (message):
+  libuvc is not found
+
+[0m
